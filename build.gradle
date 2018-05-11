@@ -1,0 +1,18 @@
+group 'wire-spock'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.codehaus.groovy:groovy-all:2.3.11'
+    testCompile "com.github.tomakehurst:wiremock:2.14.0"
+    testCompile 'org.springframework.cloud:spring-cloud-contract-wiremock:1.2.1.RELEASE'
+    testCompile 'org.spockframework:spock-core:1.1-groovy-2.4'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'io.rest-assured:rest-assured:3.0.0'
+    testCompile 'io.rest-assured:spring-mock-mvc:3.0.0'
+}
