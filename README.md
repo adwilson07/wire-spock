@@ -1,10 +1,12 @@
-# Tests
+####A simple and elegant framework for testing api's using [spock](http://spockframework.org/) combining [rest-assured](http://rest-assured.io/) and [wiremock](http://wiremock.org/) 
+
+# Test
+
 ### Requirements
 1. Install [gradle](https://gradle.org/install/)
 
-##### To run :
-`gradle clean test -Denvironment="dev"`
-Stage by default
+##### To run end to end tests:
+`gradle clean test`
 
 ##### To View Reports 
 open in browser
